@@ -1,0 +1,135 @@
+
+p {
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+}
+
+input:focus {
+  outline: none;
+}
+
+.cat-image-7a {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.cat-image-7b {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+}
+
+.cat-image-7c {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100px;
+}
+
+.text-box-7d {
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding: 12px 15px;
+  border-radius: 8px;
+}
+
+.text-box-7e {
+  font-size: 16px;
+  width: 500px;
+  border: none;
+  padding: 12px 15px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 250px;
+}
+
+.label-email {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.txt-box-7f {
+  font-size: 16px;
+  width: 400px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.disclaimer {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.join-button {
+  background-color: rgb(10, 102, 194);
+  font-size: 20px;
+  color: white;
+  width: 400px;
+  border: none;
+  border-radius: 200px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  transition: background-color 0.15s;
+}
+
+.join-button:hover {
+  background-color: rgba(10, 102, 194, 0.7);
+}
+
+.join-button:active {
+  background-color: rgba(10, 102, 194, 0.5);
+}
+
+.privacy {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.privacy:hover {
+  text-decoration: underline;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.text-box-7g {
+  font-size: 18px;
+  width: 300px;
+  border: none;
+  vertical-align: middle;
+}
+
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+}
+
+.tweet-button:active {
+  opacity: 0.7;
+}
